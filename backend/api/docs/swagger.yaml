@@ -1,0 +1,17 @@
+basePath: /
+host: localhost:5000
+info:
+  contact: {}
+  description: This is Swagger docs for rest api golang fiber
+  title: Fiber Golang Restapi
+  version: "1.0"
+paths: {}
+schemes:
+- http
+securityDefinitions:
+  BearerAuth:
+    description: Type "Bearer" followed by a space and the token
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"
